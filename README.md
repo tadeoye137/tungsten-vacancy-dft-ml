@@ -46,9 +46,11 @@ DFT at 128 atoms; fine-tuning MACE on DFT defect data; vacancy migration barrier
 ## Files
 - `make_inputs.py`: writes the Quantum ESPRESSO inputs (lattice scan and supercells)
 - `analyse.py`: extracts energies, fits the lattice constant, computes E_vac
+- `mace_vacancy.py`: MACE-MP-0 calculations
 - `job_W54.sh`: SGE job script for the 54-atom runs
-- `mace_vacancy.py`: MACE-MP-0 calculations and the figure
+- `inputs/`: Quantum ESPRESSO input files
 - `outputs/`: Quantum ESPRESSO output files
+- Pseudopotential: GBRV `w_pbe_v1.2.uspp.F.UPF` (from the GBRV or SSSP library)
 
 ## References
 [1] D. Nguyen-Manh and S. L. Dudarev, "Trapping of He clusters by inert-gas impurities in tungsten: first-principles predictions and experimental validation", COSIRES 2014, arXiv:1408.0630.
