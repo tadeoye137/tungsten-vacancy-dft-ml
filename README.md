@@ -47,7 +47,7 @@ DFT at 128 atoms; fine-tuning MACE on DFT defect data; vacancy migration barrier
 - `make_inputs.py`: writes the Quantum ESPRESSO inputs (lattice scan and supercells)
 - `analyse.py`: extracts energies, fits the lattice constant, computes E_vac
 - `job_W54.sh`: SGE job script for the 54-atom runs
-- `mace_vacancy.ipynb`: MACE-MP-0 calculations and the figure
+- `mace_vacancy.py`: MACE-MP-0 calculations and the figure
 - `outputs/`: Quantum ESPRESSO output files
 
 ## References
